@@ -1,0 +1,7 @@
+.jumbo {
+    height: 100vh;
+    background-image: url(../img/1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position-y: 70%;
+}

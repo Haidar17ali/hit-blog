@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.footer {
+    height: 3rem;
+}
+
+.container-fluid footer {
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+}
+
+.dropdown a:hover{
+	background-color: grey;
+}

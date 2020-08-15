@@ -1,0 +1,63 @@
+/*Jumbotron*/
+/* .jumbo {
+    height: 100vh;
+    background-image: url(../img/1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position-y: 70%;
+} */
+
+.jumbo p {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.jumbo h5 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.news .kartu {
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.news .kartu img {
+    width: 15rem;
+    height: 15rem;
+}
+
+section h3 {
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+
+.news .second {
+    border: 0;
+}
+
+.tombol {
+    height: 5rem;
+}
+
+.tombol button {
+    letter-spacing: 0.3rem;
+}
+
+a h5:hover {
+    color: red;
+}
+
+/*Small devices (landscape phones)*/
+@media (max-width: 599px) {
+    .news .kartu {
+        display: flex;
+        flex-wrap: wrap;
+        border: 0;
+    }
+
+    .news .kartu img {
+        width: 100%;
+    }
+}
